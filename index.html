@@ -1,0 +1,209 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Runlin's NYC tour!</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+<nav id="custom-bootstrap-menu" class="navbar navbar-default">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://www.booking.com/">Booking Flights</a></li>
+        <li><a href="http://www.nycgo.com/">NYC Official Guide</a></li>
+        <li><a href="http://www.nyu.edu/">NYU</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More Info <span class="caret"s></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.opentable.com/start/home">Restaurants</a></li>
+            <li><a href="https://www.ny.com/museums/all.museums.html">Attractions</a></li>
+            <li><a href="https://www.tripadvisor.com SmartDeals-g60763-New_York_City_New_York-Hotel-Deals.html">Hotels</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://www.booking.com/">Booking.com</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>Travel in New York City </h1>
+    <h2>An online NYC tour map from Runlin</h2>
+    <p>The City of New York, often called New York City or simply New York, is the most populous city in the United States. With an estimated 2015 population of 8,550,405 distributed over a land area of about 302.6 square miles (784 sq km), New York City is also the most densely populated major city in the United States. Located at the southern tip of the state of New York, the city is the center of the New York metropolitan area, one of the most populous urban agglomerations in the world. A global power city, New York City exerts a significant impact upon commerce, finance, media, art, fashion, research, technology, education, and entertainment. New York is an important center for international diplomacy and has been described as the cultural and financial capital of the world.</p>
+    <p><a class="btn btn-primary btn-lg" href="http://www.nycgo.com" role="button">Explore more »</a></p>
+  </div>
+</div>
+ 
+ <div class="container">
+   <img src="https://i.ytimg.com/vi/Pnc3KQAQuag/maxresdefault.jpg" class="img-rounded" alt="Cinque Terre" width="1200" height="600">
+  <h2>The best things to do in spring in NYC!</h2>
+  <p>My friend, there’s nothing better than spring in NYC. Be prepared: All those blooms, street fairs and flea markets will give you spring fever.</p>
+
+      <div class="row">
+        <div class="col-md-4">
+          <h3>The Orchid Show</h3>
+          <p>Things get super tropical at New York Botanical Garden—just when we need it most. At the 15th annual Orchid Show, you’ll feel as if you’ve been transported to Thailand, </p>
+          <p><a class="btn btn-default" href="https://www.timeout.com/newyork/things-to-do/orchid-show-nyc-guide">Detail »</a></p>
+        </div>
+        
+        <div class="col-md-4">
+          <h3>Women’s History Month in NYC</h3>
+          <p>NYC offers a bevy of ways you can show solidarity for your sisters during Women’s History Month. New York ladies are getting in formation by hosting a series of cool events that range from nabbing beauty services...</p>
+          <p><a class="btn btn-default" href="https://www.timeout.com/newyork/womens-history-month-in-nyc" role="button">Detail »</a></p>
+       </div>
+
+        <div class="col-md-4">
+          <h3>Whisky Live</h3>
+          <p>Three-and-a-half hours of tasting 300 kinds of the strong stuff? Take a deep breath; you can do this. Get into really good spirits by sampling Scotch, bourbon and whiskey from around the world at this international festival. </p>
+          <p><a class="btn btn-default" href="https://www.timeout.com/newyork/bars/whisky-live" role="button">Detail »</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <h3>NY Drinks NY Grand Tasting</h3>
+          <p>Increase the ABV fun with a sampling of 200 wines from 40 New York wineries at this six-years-and-running vino tasting. Along with bottles hailing from the far reaches of New York (the Finger Lakes, the Niagara Escarpment).</p>
+          <p><a class="btn btn-default" href="https://www.timeout.com/newyork/bars/ny-drinks-ny-grand-tasting" role="button">Detail »</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <h3>NYC Cocktail Expo</h3>
+          <p>Now we’re getting warmer. Slurp your way through this craft-cocktail fest with drink tastings stirred by mixologists from, primarily, Queens bars like Sweet Afton and the Bonnie. Witness a cocktail throwdown to determine the best drinks of the night while you nibble SoCal-inspired bites from Pinks. </p>
+          <p><a class="btn btn-default" href="https://www.timeout.com/newyork/things-to-do/nyc-cocktail-expo" role="button">Detail »</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <h3>Coffee Tea Festival</h3>
+          <p>The buzz you’ll get at this 12th annual sip fest is strictly of the caffeinated variety, but oh, what a buzz it’ll be. Savor perky pours from more than 60 nationwide vendors including Wandering Bear Coffee, Birds Beans and Brooklyn’s Tea Dealers.</p>
+          <p><a class="btn btn-default" href="https://www.timeout.com/newyork/bars/coffee-tea-festival-nyc" role="button">Detail »</a></p>
+        </div>
+      </div>
+  </div>
+
+<hr>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="custom-h2">Explore the NYC</h2>
+      <button type="button" class="btn btn-danger reset">Reset Map</button>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-4">
+          <button type="button" class="btn btn-primary favorite-restaurant"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Favorite Restaurant</button>
+        </div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-primary favorite-attraction"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Favorite Attraction </button>
+        </div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-primary favorite-hotel"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Favorite Hotel </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Restaurants</h2>
+          <p>Your eating choices in New York City are as limitless as your cravings. Want a 15-course tasting menu at the latest trendsetting restaurant? A porterhouse for two at an old-timey steakhouse? A plateful of Chinese dumplings? The City has thousands of places featuring cuisines from around the world. Explore this section to find the restaurants—and meals—of your dreams. </p>
+          <p><a class="btn btn-default" href="http://www.nycgo.com/things-to-do/restaurants-dining" role="button">Reservation»</a></p>
+        </div>
+        
+        <div class="col-md-4">
+          <h2>Attractions</h2>
+          <p>Breathtaking views from Top of the Rock, the Empire State Building and One World Observatory. Exhibits from throughout history at the Metropolitan Museum of Art, the Brooklyn Museum and New York Hall of Science. Thrilling performances at Lincoln Center, BAM and Barclays Center. Attractions in NYC suit all tastes. </p>
+          <p><a class="btn btn-default" href="http://www.nycgo.com/things-to-do/attractions" role="button">Find More »</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Hotels</h2>
+          <p>New York City offers a wide range of accommodations to fit every taste: marquee hotels that reflect NYC’s bright lights, boutique hotels tucked away on charming side streets, family-friendly stays close to parks and greenery. Whether you’re looking to visit nearby attractions, explore NYC history or be in the center of it all, these hotels will make New York City your home away from home. </p>
+          <p><a class="btn btn-default" href="http://www.nycgo.com/plan-your-trip/hotels" role="button">Reservation »</a></p>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <img src="https://static01.nyt.com/images/2013/09/11/dining/11REST_SPAN/11REST_SPAN-videoLarge.jpg" class="img-thumbnail" alt="Cinque Terre" width="370" height="250">
+  <img src="http://spartontravels.com/sparton/images/europe/3-statue-of-liberty.jpg" class="img-thumbnail" alt="Cinque Terre" width="370" height="250">
+  <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/e1/39/b0/hotel-exterior.jpg" class="img-thumbnail" alt="Cinque Terre" width="392" height="280">
+</div>
+
+<hr>
+
+<div class="jumbotron">
+  <div class="container">
+    <h2>Attractive Parks in NYC</h2>
+    <h4>Recommended Parks by Runlin</h4>
+    <p>Looking for some great things to do outside? NYC parks are everywhere—in fact, there's nearly 1,700 parks and playgrounds within five boroughs. But some green spaces stand out above the rest. We've rounded up our favorites where you're sure to see some of the best views in NYC or discover awesome New York attractions. When the weather is nice, we highly recommend packing some food to-go and finding the perfect picnic spots. Don’t forget to check our site for fun and free things to do in parks all over town.</p>
+    <p><a class="btn btn-primary btn-lg" href="https://runlinhan.github.io/bootstraprl/" role="button">Runlin"s NYC Park Map »</a></p>
+  </div>
+</div>
+
+<div class="container">
+  <h1>NYC Urban Planning</h1>
+  <h2 class="custom-h2">City Planning History</h2>
+   <p>Since adoption of the country’s first Zoning Resolution in 1916, New York City has played a seminal role in the history and development of planning and zoning. This rich history is captured through decades of planning reports, land use maps and historic photographs documenting a changing urban landscape. Many of these documents serve as a critical resource for the Department, for the City and for the planning profession. </p>
+  <img src="https://www1.nyc.gov/assets/planning/images/content/pages/about/city-planning-history/dcp_lower_mn_skyline.jpg" class="img-circle" alt="Cinque Terre" width="370" height="250">
+  <img src="https://untappedcities-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/Copenhagen-Solutions_Rebuild-By-Design_NYC_Untapped-Cities_Bhushan-Mondkar-003.jpg" class="img-circle" alt="Cinque Terre" width="370" height="250">
+  <img src="https://www.planetizen.com/files/styles/news_header/public/images/CentralPark.jpg?itok=zRI4FA9U" class="img-circle" alt="Cinque Terre" width="370" height="250">
+</div>
+
+  <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>City Planning Commission</h4>
+          <p>New York City has been a pioneer in the development of urban planning in the United States; the nation's first comprehensive zoning resolution was enacted by the city in 1916. But it was not until 20 years later that New Yorkers voted to approve a new City Charter that established the City Planning Commission and gave it the responsibility to prepare plans and to draft and approve amendments to the Zoning Resolution. </p>
+          <p><a class="btn btn-default" href="https://www1.nyc.gov/site/planning/about/city-planning-history.page#collapse2">More History »</a></p>
+        </div>
+        
+        <div class="col-md-4">
+          <h4> Zoning History</h4>
+          <p>As early as the 1870’s and 1880’s, New Yorkers began to protest the loss of light and air as taller residential buildings began to appear in Manhattan. In response, the state legislature enacted a series of height restrictions on residential buildings, culminating in the Tenement House Act of 1901. </p>
+          <p><a class="btn btn-default" href="https://www1.nyc.gov/site/planning/about/city-planning-history.page#collapse2" role="button">More History »</a></p>
+       </div>
+
+       <div class="col-md-4">
+          <h4> City Planning Rules</h4>
+          <p>The City Planning Rules are established by the City Planning Commission (the “Commission”) or the Department of City Planning (the Department), as may be applicable, pursuant to the City Administrative Procedure Act (Chapter 45 of the Charter New York City Charter), and have been adopted in accordance with Section 1043 thereof. The City Planning Rules are located in Title 62 of the Rules of the City of New York. </p>
+          <p><a class="btn btn-default" href="https://www1.nyc.gov/site/planning/about/city-planning-rules.page" role="button">More History »</a></p>
+       </div>
+    </div>
+    <hr>
+     <img src="https://media.timeout.com/images/102698330/image.jpg" class="img-rounded" alt="Cinque Terre" width="1200" height="400">
+  </div>
+ 
+<div class="container">
+  <hr>
+    <footer>
+    <p>© 2017 Runlin Han.URPL-GP-4650 Advanced GIS: Interactive Web Mapping and Spatial Data Visualiation.</p>
+    </footer>
+</div>
+ 
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
